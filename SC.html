@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="sc.css">
+    <title>Document</title>
+    <script async src="Shoppingcart.js"></script>
+</head>
+<body>
+    <section class="container centent-section">
+        <h2 class="section-header bg-danger">Store</h2>
+        <div class="row shop-items">
+
+            <div class="shop-item col-4">
+                <h5 class="shop-item-title ">album 1</h5>
+                <img src="https://rukminim1.flixcart.com/image/416/416/mug/a/f/a/beautiful-butterfly-printed-for-tea-and-coffee-1-tuelip-original-imaerwapztayr8bd.jpeg?q=70" class="shop-item-image">
+                <div class="shop-items details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-button ml-5" type="button">ADD to Cart</button>
+                </div>
+            </div>
+
+            <div class="shop-item col-4">
+                    <h5 class="shop-item-title ml-5">album 2</h5>
+                    <img src="https://rukminim1.flixcart.com/image/416/416/mug/k/3/c/1-tuelip-beautiful-pink-flower-pattern-original-imaezg64znbwgn2d.jpeg?q=70"  class="shop-item-image">
+                    <div class="shop-items details">
+                        <span class="shop-item-price">18.99</span>
+                        <button class="btn btn-primary shop-item-button ml-5 " type="button">ADD to Cart</button>
+                    </div>
+                </div>
+
+                <div class="shop-item col-4">
+                        <h5 class="shop-item-title ml-5">album 3</h5>
+                        <img src="https://rukminim1.flixcart.com/image/416/416/mug/j/s/x/1-tuelip-beautiful-printed-floral-inside-black-for-tea-and-original-imaen8h8ggbwuzzj.jpeg?q=70"  class="shop-item-image">
+                        <div class="shop-items details">
+                            <span class="shop-item-price">60.99</span>
+                            <button class="btn btn-primary shop-item-button ml-5" type="button">ADD to Cart</button>
+                        </div>
+                    </div>
+
+        </div>
+    </section>
+    <section class="container content-section" id="cart-info">
+            <h2 class="section-header mt-4 ">CART</h2>
+            <div class="row">
+                <span class="cart-item cart-header cart-column col-4">ITEM</span>
+                <span class=" cart-prices cart-header cart-column col-4">PRICE</span>
+                <span class="cart-quantity cart-header cart-column col-4">QUANTITY</span>
+            </div>
+             <div class="cart-items">
+             <div class="row cart-row">
+                   <div class="cart-item cart-column col-4">
+                    <img src="https://rukminim1.flixcart.com/image/416/416/mug/a/f/a/beautiful-butterfly-printed-for-tea-and-coffee-1-tuelip-original-imaerwapztayr8bd.jpeg?q=70" alt="" width="100" height="100"
+                     class="cart-item-image">
+                     <span class="cart-item-title">album 1</span>
+                 </div>
+                 
+                 <span class="cart-price cart-column col-4">9.99</span>
+                 <div class="cart-quantity cart-column col-4">
+                     <input type="number" class="cart-quantity-input"  value="2">
+                    <button class="btn btn-danger">REMOVE</button>
+                    </div>
+             </div>
+
+             <!-- <div class="row cart-row">
+                    <div class="cart-item cart-column col-4">
+                        <img src="https://rukminim1.flixcart.com/image/416/416/mug/k/3/c/1-tuelip-beautiful-pink-flower-pattern-original-imaezg64znbwgn2d.jpeg?q=70" alt="" width="100" height="100"
+                        class="cart-item-image">
+                        <span class="cart-item-title">album 2</span>
+                    </div>
+                    
+                    <span class="cart-price cart-column col-4">9.99</span>
+                    <div class="cart-quantity cart-column col-4">
+                        <input type="number" class="cart-quantity-input"  value="2">
+                       <button class="btn btn-danger">REMOVE</button>
+                       </div>
+                </div>
+
+                <div class="row cart-row">
+                        <div class="cart-item cart-column col-4">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/mug/j/s/x/1-tuelip-beautiful-printed-floral-inside-black-for-tea-and-original-imaen8h8ggbwuzzj.jpeg?q=70" alt="" width="100" height="100"
+                            class="cart-item-image">
+                            <span class="cart-item-title">album 3</span>
+                        </div>
+                        
+                        <span class="cart-price cart-column col-4">9.99</span>
+                        <div class="cart-quantity cart-column col-4">
+                            <input type="number" class="cart-quantity-input "   value="3">
+                           <button class="btn btn-danger">REMOVE</button>
+                           </div>
+                    </div> -->
+         
+            </div> 
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price"></span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+
+    
+    
+</body>
+</html>
